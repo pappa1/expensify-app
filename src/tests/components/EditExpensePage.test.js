@@ -1,8 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { EditExpensePage } from '../../components/EditExpensePage';
-import expenses from '../fixtures/expenses'
-import { startRemoveExpense } from '../../actions/expenses';
+import expenses from '../fixtures/expenses';
 import { start } from 'repl';
 
 let editExpense, startRemoveExpense, history, wrapper;
